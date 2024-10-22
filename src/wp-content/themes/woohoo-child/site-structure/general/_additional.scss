@@ -1,0 +1,236 @@
+/* CSS Update 23/09/2024 */
+.icon-about-us .elementor-image-box-description{
+	font-weight: bolder;
+	color: #000;
+	font-size: 16px;
+	line-height: 20px;
+}
+.icon-our-fabric .elementor-image-box-title{
+	font-size: 16px;
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+.icon-our-fabric .elementor-image-box-description{
+	font-size: 14px;
+	color: #000;
+	line-height: 20px;
+}
+.icon-our-fabric .elementor-image-box-wrapper{
+	 margin-top: 40px !important;
+}
+.elementor-16976 .elementor-element.elementor-element-eae3051 .swiper-pagination-bullet:not(.swiper-pagination-bullet-active){
+	background: #fff;
+}
+.elementor-16976 .elementor-element.elementor-element-eae3051 .swiper-pagination-bullet.swiper-pagination-bullet-active{
+	background: #FF6300;
+}
+.logo_image {
+    max-height: 70px !important;
+}
+.line-divide-logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0 0 0;
+}
+
+.line-divide-logo .aio-icon-img:before, .line-divide-logo .aio-icon-img:after{
+	content: '';
+	display: inline-block;
+	width: 200px;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+  border-style: dotted;
+  border-color: #3d3938;
+  border-bottom-width: 2px;
+	margin-bottom: 5px !important;
+}
+
+.line-divide-logo img{
+	 width: 30px;
+	height: 30px;
+	margin: 0 10px;
+}
+.service-section-custom .sc_services_item_subtitle{
+	display: none;
+}
+
+.service-section-custom .sc_services_item_content_inner{
+	padding: 0px 0px 30px 0px;
+	text-align: center;
+}
+
+.sc_layouts_cart_items_short, .sc_button.sc_button_default{
+	background: #6BADE1 !important;
+}
+
+.menu_hover_zoom_line .sc_layouts_menu_nav > li:not(.menu-collapse) > a:after{
+	background-color: #6BADE1 !important;
+}
+
+footer .elementor-widget-container p{
+	color: #fff;
+}
+
+footer .elementor-widget-container a{
+	color: #fff !important;
+}
+
+.sc_layouts_title_caption{
+	color: #fff;
+	font-weight: bolder;
+}
+
+.section-header-custom svg{
+	fill: #fff;
+}
+.sc_item_subtitle{
+	margin-bottom: 10px !important;
+	font-weight: bolder;
+}
+h1, h2, h3, h4, h5, h6{
+	    font-family: "Franklin Gothic Heavy Regular", Sans-serif !important;
+    letter-spacing: 1.5px;
+}
+
+.sc_layouts_title_caption{
+	    font-family: "Franklin Gothic Heavy Regular", Sans-serif !important;
+    letter-spacing: 1.5px;
+}
+
+a, b, span , p, div {
+	font-family: "Franklin Gothic Book Regular", Sans-serif;
+}
+.elementor-element.elementor-element-eae3051 .elementor-slide-button{
+	font-family: "Franklin Gothic Book Regular", Sans-serif !important;
+}
+
+.square-box-link .elementor-cta{
+	width: 410px;
+	height: 410px;
+}
+
+.square-box-link .elementor-cta__content{
+	height: 100%;
+}
+
+.square-box-link .elementor-cta__content .elementor-cta__button-wrapper{
+	display: none;
+}
+
+.square-box-link .elementor-cta__content .elementor-cta__title{
+	text-transform: uppercase;
+	font-size: 1.556em;
+}
+
+
+.slider_outer .slider_pagination_wrap .swiper-pagination-bullet.swiper-pagination-bullet-active{
+	background: #86C6FF;
+	border-color: #86C6FF;;
+}
+
+.home .sc_services_item_title{
+	display: flex;
+	justify-content: center;
+}
+
+.home .sc_services_item_title a{
+	max-width: 220px !important;
+	display: inline-block;
+}
+wdp_bulk_table_content
+.our-services-custom .elementor-portfolio-item__title{
+	text-align: center;
+	font-weight: normal !important;
+	font-family: "Franklin Gothic Book Regular", Sans-serif !important;
+	font-size: 25px;
+	line-height: 35px;
+	margin-bottom: 10px;
+}
+
+.cpt_services-template-default .content_wrap{
+	width: 100%;
+}
+
+.woocommerce-order-received .woocommerce-order-details{
+	margin-bottom: 0px !important;
+}
+
+.shop_table_order_details{
+	padding-bottom: 0px;
+}
+
+.checkout-class, .checkout-parent-phone, .checkout-parent-email{
+	
+    border-bottom: 1px solid #D8D8D8;
+    color: black;
+    padding-bottom: 15px;
+}
+
+.checkout-class{
+	border-top: 1px solid #D8D8D8;
+    padding-top: 15px;
+}
+
+.wdp_bulk_table_content{
+	margin-top: 30px !important;
+	display:inline-block;
+}
+
+.title-center .elementor-portfolio-item__title{
+	text-align: center;
+}
+
+.title-center .elementor-post__thumbnail__link{
+	 padding-bottom: calc(1* 120%) !important;
+}
+
+.link-enquiry-now{
+	background: #6bade1;
+	border-color: #6bade1;
+	padding: 5px 30px;
+}
+
+.link-enquiry-now a{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Oswald, sans-serif;
+	font-size: 13px;
+}
+
+.link-enquiry-now:hover a{
+	color: #fff;
+}
+
+.woocommerce-variation-add-to-cart{
+	flex-wrap: wrap !important;
+}
+
+.box-range-price{
+	width: 100%;
+
+}
+
+.box-range-price ul li{
+	font-size: 15px;
+}
+
+.box-range-price p{
+	color: #000;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+	
+}
+
+@media(min-width: 1024px){
+	.cpt_services-template-default  .wp-block-image{
+	width: 30%;
+		height: 250px;
+}
+	.cpt_services-template-default  .wp-block-image img{
+		height: 100%;
+		object-fit: cover;
+	}
+}
+

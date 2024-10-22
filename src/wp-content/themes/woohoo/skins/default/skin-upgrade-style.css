@@ -1,0 +1,40 @@
+.sc_services_minimal .sc_services_item.with_image .sc_services_item_featured_image {
+  transform: scale(1.01, 1.01);
+}
+
+.sc_services_minimal .sc_services_item:hover .sc_services_item_featured_image {
+  transform: scale(1.05, 1.05);
+}
+
+.scroll_to_top_style_default {
+  background-color: var(--theme-color-text_light);
+}
+
+#powerTip {
+  background-color: #171717 !important;
+}
+
+.sc_testimonials_alter [class*="column"] .sc_testimonials_item_author_data .sc_testimonials_item_author_subtitle,
+.sc_testimonials_alter [class*="column"] .sc_testimonials_item_author_data .sc_testimonials_item_author_title + .sc_testimonials_item_author_subtitle,
+.sc_testimonials_alter .sc_testimonials_item_author_data .sc_testimonials_item_author_subtitle,
+.sc_testimonials_alter .sc_testimonials_item_author_data .sc_testimonials_item_author_title + .sc_testimonials_item_author_subtitle {
+  color: var(--theme-color-text_light_08);
+}
+
+.sc_icons_rounded .sc_icons_icon {
+  background-color: var(--theme-color-inverse_hover);
+}
+
+.wp-block-search .wp-block-search__button {
+  color: var(--theme-color-inverse_link);
+  border-color: var(--theme-color-text_link);
+  background-color: var(--theme-color-text_link);
+}
+
+.wp-block-search .wp-block-search__button:hover {
+  color: var(--theme-color-inverse_link);
+  border-color: var(--theme-color-text_hover);
+  background-color: var(--theme-color-text_hover);
+}
+
+/*# sourceMappingURL=skin-upgrade-style.css.map */

@@ -1,0 +1,267 @@
+@import "mixins";
+
+// @import "fonts";
+@import "variables";
+
+@import "animation";
+@import "buttons";
+@import "additional";
+
+.sc_testimonials_simple [class*="column"] .sc_testimonials_item_content,
+.sc_testimonials_simple .sc_testimonials_item_content {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.our-services-custom {
+  .elementor-portfolio-item__overlay {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+    transition: opacity 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    overflow: hidden;
+    background-color: transparent;
+  }
+
+  .elementor-portfolio-item__title {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .elementor-portfolio-item__overlay:hover {
+    background-color: #00000029;
+    transition: all 0.3s;
+
+    .elementor-portfolio-item__title {
+      padding-bottom: 30px;
+      transition: all 0.3s;
+    }
+  }
+
+  .elementor-portfolio-item__img {
+    transition: transform 0.3s ease;
+  }
+
+  .elementor-post__thumbnail__link:hover {
+    .elementor-portfolio-item__img {
+      transform: scale(1.09);
+      transition: all 0.35s ease-in-out;
+    }
+
+    .elementor-portfolio-item__overlay {
+      opacity: 1;
+    }
+  }
+}
+
+.elementor-post__thumbnail__link {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider_container:not(.inited) {
+  display: block !important;
+}
+
+[data-mouse-helper-hide-cursor="1"],
+[data-mouse-helper-hide-cursor="1"] * {
+  cursor: pointer;
+}
+
+rs-column {
+  cursor: pointer;
+}
+
+.service-section-custom {
+  .link_text {
+    margin-right: 10px !important;
+  }
+  .post_featured.with_thumb {
+    .mask {
+      opacity: 1 !important;
+      background-color: rgba(0, 0, 0, 0.4) !important;
+    }
+  }
+  .sc_services_item_title_wrap {
+    max-width: 250px;
+  }
+
+  .sc_services_item_subtitle {
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+    padding-top: 10px;
+
+    a {
+      color: white;
+      font-weight: bolder;
+      font-size: 20px;
+    }
+  }
+
+  
+
+  .sc_services_item {
+    position: relative;
+    width: 100%;
+  }
+
+  .sc_services_item_info {
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+
+    .sc_services_item_title.entry-title {
+      padding-left: 15px;
+      opacity: 0.8;
+      font-size: 17px;
+      font-weight: bolder;
+
+      a {
+        color: white;
+      }
+    }
+
+    .sc_services_item_header {
+      height: 80%;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .sc_services_item_button.sc_item_button {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+
+      a {
+        background: white;
+        color: red;
+        font-weight: bolder;
+        border-radius: 35px;
+        padding: 5px 20px;
+        border: 1px solid #ccc;
+      }
+    }
+  }
+}
+
+.capitalize-text {
+  .sc_item_title_text {
+    text-transform: capitalize;
+  }
+}
+
+.elementor-button.elementor-slide-button {
+  font-family: oswald !important;
+  padding: 17px 57px;
+}
+.about-us-in-home {
+  h2 {
+    text-transform: capitalize !important;
+  }
+}
+
+h2 {
+  .sc_item_title_text {
+    text-transform: capitalize !important;
+  }
+}
+
+.widget-banner {
+  .image_wrap {
+    padding: 0px !important;
+  }
+}
+
+.woocommerce {
+  ul.products {
+    li.product {
+      a {
+        img {
+          min-height: 260px;
+        }
+      }
+    }
+  }
+}
+
+.woocommerce-loop-product__title {
+  a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    min-height: 50px;
+  }
+}
+.sc_services_price .sc_services_item .sc_services_item_more_link .link_text{
+	text-indent: 0px !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+@media (max-width: 767px) {
+  .banner-responsive {
+    .sc_button:not(.sc_button_simple) {
+      padding: 5px 15px;
+      font-size: 12px;
+      text-transform: capitalize;
+    }
+
+    .sc_item_title.sc_title_title {
+      font-size: 18px;
+      text-transform: capitalize;
+    }
+
+    .sc_item_subtitle {
+      text-transform: capitalize;
+      line-height: 5px;
+    }
+  }
+
+  .service-section-custom {
+    .sc_services_item_info {
+      .sc_services_item_header {
+        height: 85%;
+      }
+    }
+
+    .sc_services_item {
+      margin-bottom: 25px;
+    }
+  }
+
+  .banner-responsive {
+    .sc_item_title + .sc_item_button {
+      margin-top: 10px !important;
+    }
+
+    .widget_banner:not(.widget_fullwidth) .image_wrap {
+      background: black !important;
+    }
+  }
+
+  .tesmonial-aboutpage {
+    .sc_item_title_text {
+      font-size: 45px !important;
+    }
+  }
+}
+
+
